@@ -319,7 +319,7 @@ NSString * const c_defaultRealmFileName = @"default.realm";
         }
         catch (IncompatibleLockFile const&) {
             NSString *err = @"Realm file is currently open in another process "
-                             "which cannot shared access with this process. All "
+                             "which cannot share access with this process. All "
                              "processes sharing a single file must be the same "
                              "architecture. For sharing files between the Realm "
                              "Browser and an iOS simulator, this means that you "
